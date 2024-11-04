@@ -13,10 +13,6 @@ int main() {
     InitWindow(screenWidth, screenHeight, "My first RAYLIB program!");
     SetTargetFPS(60);
 
-    //SpriteAnimation animation("C:/Projects/C++/R", 64, 64, 5, 1, 6, 1, 10.0f);
-
-    //Vector2 position = { 400, 300 };
-
     while (WindowShouldClose() == false) {
         BeginDrawing();
         ClearBackground(BLUE);
